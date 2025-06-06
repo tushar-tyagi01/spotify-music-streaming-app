@@ -1,0 +1,97 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display:flex;
+    background-color: black;
+    height:50px;
+    color: white;
+    
+}
+.tags{
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    padding-top: 15px;
+    
+}
+a{
+    color: white;
+    text-decoration:none ;
+}
+.bottomnav{
+    position: sticky;
+    display: flex;
+    background-color: black;
+    height: 70px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+#pause{
+    margin-top: 35px;
+    color: blue;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    cursor: pointer;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 13px;
+    padding: 34px;
+    background-image:url("music-microphone-treble-clef-wallpaper-preview.jpg");
+    
+}
+.songitem{
+    height:50px;
+    width:80%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    
+    
+
+}
+.true{
+    width: 43px;
+    padding-left: 10px;
+    margin: 0 23px;
+    border-radius: 50%;
+}
+.timestamp{
+    margin: 0 23px;
+}
+ i{
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 40px;
+}
+.gif{
+    height: 15px;
+    transition: opacity 2s ease-in;
+    
+}
+.songinfo{
+    position: fixed;
+    left: 10vw;
+}
